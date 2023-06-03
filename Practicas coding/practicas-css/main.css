@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+
+    font-size: 18px;
+}
+.container {
+	background: red;
+	max-width: 90%	;
+	margin: auto;
+
+
+	display: flex;
+
+	flex-flow: row wrap;
+}
+.columna {
+
+	flex-basis: calc(50% - em);
+
+	background: yellow;
+
+	margin: 1em;
+}
+.columna p {
+	position: relative;
+}
+.img {
+	background: carmesi;
+}
